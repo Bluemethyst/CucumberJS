@@ -2,6 +2,7 @@
 # CucumberJS
 ### A KubeJS addon for creating [Cucumber Library](https://github.com/BlakeBr0/Cucumber) tools/weapons. That's it. idk why you'd need this
 
+## [Download Here!](https://modrinth.com/mod/cucumberjs)
 
 ## Dependencies
 - [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs)
