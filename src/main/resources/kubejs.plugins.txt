@@ -1,0 +1,1 @@
+dev.bluemethyst.toolsjs.kubejs.Plugin
