@@ -13,6 +13,7 @@
 - [ProbeJS](https://www.curseforge.com/minecraft/mc-mods/probejs)
 
 ## Creating a tool
+For a more in-depth wiki refer [here](https://github.com/Bluemethyst/CucumberJS/wiki)
 ```js
 // Inside startup_scripts, this will create a tool with no texture
 StartupEvents.registry("item", (event) => {
@@ -21,8 +22,8 @@ StartupEvents.registry("item", (event) => {
     event.create("test_paxel", "paxel");
     event.create("test_scythe", "scythe");
     event.create("test_shear", "shears");
-    event.create("test_sickle", "sickle");
-    event.create("test_wateringcan", "wateringcan");
+    event.create("test_sickle", "sickle").range(3);
+    event.create("test_wateringcan", "wateringcan").range(2).chance(50);
 });
 ```
 
