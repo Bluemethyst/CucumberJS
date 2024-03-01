@@ -3,33 +3,33 @@ loaderVersion = "[47,)"
 license = "MIT"
 
 
-issueTrackerURL="https://github.com/Bluemethyst/ToolsJS/issues"
+issueTrackerURL="https://github.com/Bluemethyst/CucumberJS/issues"
 
 [[mods]]
-modId = "toolsjs"
+modId = "cucumberjs"
 version = "0.0.1-1.20.1"
-displayName = "ToolsJS"
+displayName = "CucumberJS"
 credits="Thanks to FooterMan for the KubeJS Addon Template! And making this mod possible!"
 authors="Bluemethyst"
 description = '''
-ToolsJS, addon for KubeJS for adding lots of misc tools. Thats it.
+CucumberJS, addon for KubeJS for adding lots of misc tools using Cucumber Library. Thats it.
 '''
 
-[[dependencies.toolsjs]]
+[[dependencies.cucumberjs]]
 modId = "forge"
 mandatory = true
 versionRange = "[47,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.toolsjs]]
+[[dependencies.cucumberjs]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.20.1,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.toolsjs]]
+[[dependencies.cucumberjs]]
 modId = "kubejs"
 mandatory = true
 versionRange = "[2001.6.4,)"

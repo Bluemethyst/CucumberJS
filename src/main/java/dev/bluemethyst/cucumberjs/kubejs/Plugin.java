@@ -1,4 +1,4 @@
-package dev.bluemethyst.toolsjs.kubejs;
+package dev.bluemethyst.cucumberjs.kubejs;
 
 import dev.latvian.mods.kubejs.KubeJSPlugin;
 import dev.latvian.mods.kubejs.registry.RegistryInfo;
@@ -6,7 +6,6 @@ import dev.latvian.mods.kubejs.registry.RegistryInfo;
 public class Plugin extends KubeJSPlugin {
     @Override
     public void init() {
-        RegistryInfo.ITEM.addType("bow", BowItemBuilder.class, BowItemBuilder::new);
         RegistryInfo.ITEM.addType("scythe", ScytheItemBuilder.class, ScytheItemBuilder::new);
         RegistryInfo.ITEM.addType("crossbow", CrossbowItemBuilder.class, CrossbowItemBuilder::new);
         RegistryInfo.ITEM.addType("fishingrod", FishingrodItemBuilder.class, FishingrodItemBuilder::new);

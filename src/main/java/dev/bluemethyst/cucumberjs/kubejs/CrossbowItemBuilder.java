@@ -1,4 +1,4 @@
-package dev.bluemethyst.toolsjs.kubejs;
+package dev.bluemethyst.cucumberjs.kubejs;
 
 import com.blakebr0.cucumber.item.tool.BaseCrossbowItem;
 import dev.latvian.mods.kubejs.item.custom.HandheldItemBuilder;

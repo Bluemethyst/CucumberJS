@@ -1,9 +1,11 @@
-package dev.bluemethyst.toolsjs.kubejs;
+package dev.bluemethyst.cucumberjs.kubejs;
 
 import com.blakebr0.cucumber.item.tool.BasePaxelItem;
 import dev.latvian.mods.kubejs.item.custom.HandheldItemBuilder;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
+
+// tysm to https://github.com/FooterMan15/PaxelJS
 
 public class PaxelItemBuilder extends HandheldItemBuilder {
     public PaxelItemBuilder(ResourceLocation i) {

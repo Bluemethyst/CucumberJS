@@ -1,4 +1,4 @@
-package dev.bluemethyst.toolsjs.kubejs;
+package dev.bluemethyst.cucumberjs.kubejs;
 
 import com.blakebr0.cucumber.item.tool.BaseFishingRodItem;
 import dev.latvian.mods.kubejs.item.custom.HandheldItemBuilder;

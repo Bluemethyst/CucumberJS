@@ -1,1 +1,1 @@
-dev.bluemethyst.toolsjs.kubejs.Plugin
+dev.bluemethyst.cucumberjs.kubejs.Plugin
