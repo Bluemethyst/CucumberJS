@@ -1,6 +1,6 @@
 ![CurseForge Downloads](https://img.shields.io/curseforge/dt/981646) ![Modrinth Downloads](https://img.shields.io/modrinth/dt/BjdncDG7)
 # CucumberJS
-### A KubeJS addon for creating [Cucumber Library](https://github.com/BlakeBr0/Cucumber) tools/weapons. That's it. idk why you'd need this
+### A KubeJS addon for creating [Cucumber Library](https://github.com/BlakeBr0/Cucumber) tools/weapons.
 
 ## [Download Here!](https://modrinth.com/mod/cucumberjs)
 
