@@ -1,4 +1,4 @@
-package dev.bluemethyst.cucumberjs.kubejs;
+package dev.bluemethyst.cucumberjs.kubejs.items;
 
 import com.blakebr0.cucumber.item.BaseWateringCanItem;
 import dev.latvian.mods.kubejs.item.custom.HandheldItemBuilder;

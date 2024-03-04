@@ -1,4 +1,4 @@
-package dev.bluemethyst.cucumberjs.kubejs;
+package dev.bluemethyst.cucumberjs.kubejs.items;
 
 import dev.latvian.mods.kubejs.typings.Info;
 import net.minecraft.world.item.HorseArmorItem;

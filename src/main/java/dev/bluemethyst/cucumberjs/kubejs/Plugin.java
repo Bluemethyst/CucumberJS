@@ -1,5 +1,6 @@
 package dev.bluemethyst.cucumberjs.kubejs;
 
+import dev.bluemethyst.cucumberjs.kubejs.items.*;
 import dev.latvian.mods.kubejs.KubeJSPlugin;
 import dev.latvian.mods.kubejs.registry.RegistryInfo;
 
