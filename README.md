@@ -1,4 +1,6 @@
-![CurseForge Downloads](https://img.shields.io/curseforge/dt/981646) ![Modrinth Downloads](https://img.shields.io/modrinth/dt/BjdncDG7)
+![CurseForge Downloads](https://img.shields.io/curseforge/dt/981646?style=for-the-badge&logo=curseforge&color=ff784d)
+![Modrinth Downloads](https://img.shields.io/modrinth/dt/BjdncDG7?style=for-the-badge&logo=modrinth&color=17b85a)
+
 # CucumberJS
 ### A KubeJS addon for creating [Cucumber Library](https://github.com/BlakeBr0/Cucumber) tools/weapons.
 
