@@ -32,4 +32,6 @@ StartupEvents.registry("item", (event) => {
 ## Credits
 [FooterMan15](https://github.com/FooterMan15) - KubeJS mod Addon template + PaxelJS references + being super great to work with!
 
+Uncandango - Amazing work on the mixins!
+
 [Bluemethyst](https://bluemethyst.dev) - Uh... being cool idk
