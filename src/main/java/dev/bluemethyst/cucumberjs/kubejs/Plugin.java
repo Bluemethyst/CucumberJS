@@ -12,5 +12,6 @@ public class Plugin extends KubeJSPlugin {
         RegistryInfo.ITEM.addType("paxel", PaxelItemBuilder.class, PaxelItemBuilder::new);
         RegistryInfo.ITEM.addType("sickle", SickleItemBuilder.class, SickleItemBuilder::new);
         RegistryInfo.ITEM.addType("wateringcan", WateringcanItemBuilder.class, WateringcanItemBuilder::new);
+        RegistryInfo.ITEM.addType("horsearmor", HorsearmorItemBuilder.class, HorsearmorItemBuilder::new);
     }
 }
