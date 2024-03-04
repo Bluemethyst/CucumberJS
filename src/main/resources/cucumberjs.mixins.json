@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "dev.bluemethyst.cucumberjs.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "mixins": [
+    "BaseAxeItemMixin",
+    "BaseHoeItemMixin",
+    "BasePickaxeItemMixin",
+    "BaseScytheItemMixin",
+    "BaseShovelItemMixin",
+    "BaseSickleItemMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
