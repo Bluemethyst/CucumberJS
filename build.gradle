@@ -73,6 +73,7 @@ dependencies {
     modImplementation('com.blakebr0.cucumber:Cucumber:1.20.1-7.0.7')
 
     modImplementation("maven.modrinth:probejs:6.0.0-forge")
+    modImplementation("maven.modrinth:C95ReXie:yTuKnzVy")
 
 }
 
