@@ -1,9 +1,6 @@
 package dev.bluemethyst.cucumberjs.item;
 
-import com.blakebr0.cucumber.item.tool.BaseAxeItem;
-import com.blakebr0.cucumber.item.tool.BaseHoeItem;
-import com.blakebr0.cucumber.item.tool.BasePickaxeItem;
-import com.blakebr0.cucumber.item.tool.BaseShovelItem;
+import com.blakebr0.cucumber.item.tool.*;
 import dev.bluemethyst.cucumberjs.mixin.accessors.CucumberAttackDamageAccessor;
 import dev.bluemethyst.cucumberjs.mixin.accessors.CucumberAttackSpeedAccessor;
 import dev.bluemethyst.cucumberjs.mixin.accessors.CucumberChanceAccessor;
@@ -58,6 +55,8 @@ public interface CucumberItem {
             if (this instanceof BaseHoeItem item) return item.getAttackSpeed();
             if (this instanceof BasePickaxeItem item) return item.getAttackSpeed();
             if (this instanceof BaseShovelItem item) return item.getAttackSpeed();
+            if (this instanceof BaseScytheItem item) return item.getAttackSpeed();
+            if (this instanceof BaseSickleItem item) return item.getAttackSpeed();
         }
         throw new IllegalArgumentException(kjs_ccmbr$self().kjs$getId() + " does not support attack speed.");
     }
