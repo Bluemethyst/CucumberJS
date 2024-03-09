@@ -23,7 +23,7 @@ public interface CucumberItem {
         return Items.AIR;
     }
 
-    @Info(value = "Attack damage, applicable only to `Axe`, `Hoe`, `Pickaxe`, `Shovel`, `Sword` and `Paxel`")
+    @Info(value = "Attack damage, applicable only to `Axe`, `Hoe`, `Pickaxe`, `Shovel`, `Sword`, `Scythe`, `Sickle` and `Paxel`")
     @RemapForJS("setCucumberAttackDamage")
     default void kjs_ccmbr$setAttackDamage(float dmg) {
         if (this instanceof CucumberAttackDamageAccessor accessor){
@@ -40,7 +40,7 @@ public interface CucumberItem {
         } else throw new IllegalArgumentException(kjs_ccmbr$self().kjs$getId() + " does not support attack speed.");
     }
 
-    @Info(value = "Attack speed, applicable only to `Axe`, `Hoe`, `Pickaxe`, `Shovel` and `Sword`")
+    @Info(value = "Attack speed, applicable only to `Axe`, `Hoe`, `Pickaxe`, `Shovel`, `Scythe`, `Sickle` and `Sword`")
     @RemapForJS("setCucumberAttackSpeed")
     default void kjs_ccmbr$setAttackSpeed(float speed){
         if (this instanceof CucumberAttackSpeedAccessor accessor){
