@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.gen.Accessor;
 import org.spongepowered.asm.mixin.gen.Invoker;
 
-@Mixin(value = {BaseAxeItem.class, BaseHoeItem.class, BasePickaxeItem.class, BaseShovelItem.class, BaseSwordItem.class}, remap = false)
+@Mixin(value = {BaseAxeItem.class, BaseHoeItem.class, BasePickaxeItem.class, BaseShovelItem.class, BaseSwordItem.class, BaseScytheItem.class, BaseSickleItem.class}, remap = false)
 public interface CucumberAttackSpeedAccessor {
 
     @Mutable
