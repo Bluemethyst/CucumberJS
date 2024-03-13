@@ -15,7 +15,7 @@
 - [ProbeJS](https://www.curseforge.com/minecraft/mc-mods/probejs)
 
 ## Creating a tool
-For a more in-depth wiki refer [here](https://github.com/Bluemethyst/CucumberJS/wiki)
+For a more in-depth wiki refer [here](https://docs.bluemethyst.dev/docs/category/cucumberjs)
 ```js
 // Inside startup_scripts, this will create a tool with no texture
 StartupEvents.registry("item", (event) => {
