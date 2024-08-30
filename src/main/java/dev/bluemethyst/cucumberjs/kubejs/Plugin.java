@@ -1,31 +1,29 @@
 package dev.bluemethyst.cucumberjs.kubejs;
 
 import dev.bluemethyst.cucumberjs.events.CucumberItemEvents;
-import dev.bluemethyst.cucumberjs.item.CucumberItemModificationEventJS;
 import dev.bluemethyst.cucumberjs.kubejs.items.*;
-import dev.latvian.mods.kubejs.KubeJSPlugin;
-import dev.latvian.mods.kubejs.registry.RegistryInfo;
+import dev.latvian.mods.kubejs.BuiltinKubeJSPlugin;
+import dev.latvian.mods.kubejs.plugin.KubeJSPlugin;
+import dev.latvian.mods.kubejs.registry.BuilderTypeRegistry;
 import dev.latvian.mods.kubejs.script.ScriptType;
+import net.minecraft.core.registries.Registries;
 
-public class Plugin extends KubeJSPlugin {
+public class Plugin implements KubeJSPlugin {
+
     @Override
-    public void init() {
-        RegistryInfo.ITEM.addType("scythe", ScytheItemBuilder.class, ScytheItemBuilder::new);
-        RegistryInfo.ITEM.addType("crossbow", CrossbowItemBuilder.class, CrossbowItemBuilder::new);
-        RegistryInfo.ITEM.addType("fishingrod", FishingrodItemBuilder.class, FishingrodItemBuilder::new);
-        RegistryInfo.ITEM.addType("paxel", PaxelItemBuilder.class, PaxelItemBuilder::new);
-        RegistryInfo.ITEM.addType("sickle", SickleItemBuilder.class, SickleItemBuilder::new);
-        RegistryInfo.ITEM.addType("wateringcan", WateringcanItemBuilder.class, WateringcanItemBuilder::new);
-        RegistryInfo.ITEM.addType("horsearmor", HorsearmorItemBuilder.class, HorsearmorItemBuilder::new);
+    public void registerBuilderTypes(BuilderTypeRegistry registry) {
+        registry.of(Registries.ITEM, reg -> {
+            reg.add("scythe", ScytheItemBuilder.class, ScytheItemBuilder::new);
+            reg.add("sickle", SickleItemBuilder.class, SickleItemBuilder::new);
+            reg.add("paxel", PaxelItemBuilder.class, PaxelItemBuilder::new);
+            reg.add("crossbow", CrossbowItemBuilder.class, CrossbowItemBuilder::new);
+            reg.add("fishingrod", FishingrodItemBuilder.class, FishingrodItemBuilder::new);
+            reg.add("wateringcan", WateringcanItemBuilder.class, WateringcanItemBuilder::new);
+            //reg.add("horsearmor", HorsearmorItemBuilder.class, HorsearmorItemBuilder::new);
+        });
     }
 
-    @Override
     public void registerEvents(){
-        CucumberItemEvents.GROUP.register();
-    }
-
-    @Override
-    public void afterInit(){
-        CucumberItemEvents.MODIFICATION.post(ScriptType.STARTUP, new CucumberItemModificationEventJS());
+        //CucumberItemEvents.GROUP.register();
     }
 }

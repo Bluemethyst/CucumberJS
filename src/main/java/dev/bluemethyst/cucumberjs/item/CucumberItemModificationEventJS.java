@@ -1,13 +1,13 @@
 package dev.bluemethyst.cucumberjs.item;
 
 import dev.bluemethyst.cucumberjs.CucumberJS;
-import dev.latvian.mods.kubejs.event.EventJS;
+import dev.latvian.mods.kubejs.event.KubeEvent;
 import dev.latvian.mods.kubejs.typings.Info;
 import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.function.Consumer;
 
-public class CucumberItemModificationEventJS extends EventJS {
+public class CucumberItemModificationEventJS implements KubeEvent {
 
     @Info("""
 		Modifies Cucumber items with the given ingredient.

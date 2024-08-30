@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[47,)"
+loaderVersion = "[21,)"
 license = "MIT"
 
 
@@ -7,7 +7,7 @@ issueTrackerURL="https://github.com/Bluemethyst/CucumberJS/issues"
 
 [[mods]]
 modId = "cucumberjs"
-version = "0.0.1-1.20.1"
+version = "1.0.0-1.21.1"
 displayName = "CucumberJS"
 credits="Thanks to FooterMan for the KubeJS Addon Template! And making this mod possible!"
 authors="Bluemethyst"
@@ -15,23 +15,31 @@ description = '''
 CucumberJS, addon for KubeJS for adding lots of misc tools using Cucumber Library. Thats it.
 '''
 
+[[mixins]]
+config = "cucumberjs.mixins.json"
+
+[[accessTransformers]]
+## The file is relative to the output directory of the resources, or the root path inside the jar when compiled
+## The 'resources' directory represents the root output directory of the resources
+file="META-INF/accesstransformer.cfg"
+
 [[dependencies.cucumberjs]]
-modId = "forge"
+modId = "neoforge"
 mandatory = true
-versionRange = "[47,)"
+versionRange = "[21,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.cucumberjs]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.20.1,)"
+versionRange = "[1.21.0,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.cucumberjs]]
 modId = "kubejs"
 mandatory = true
-versionRange = "[2001.6.4,)"
+versionRange = "[2101.7.0-build.158,)"
 ordering = "NONE"
 side = "BOTH"
